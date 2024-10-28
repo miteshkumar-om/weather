@@ -1,0 +1,44 @@
+body { 
+    font-family: Arial, sans-serif; 
+    display: flex; 
+    justify-content: center; 
+    align-items: center; 
+    height: 100vh; 
+    background-color: #f0f0f0; 
+    margin: 0; 
+    background-image: url('https://img.freepik.com/free-vector/sky-background-video-conferencing_23-2148623068.jpg?t=st=1725459365~exp=1725462965~hmac=e9ce0fea9ad4768b3776a331cb1e7c07aecdcf793bb37934e1dea6dde812d35d&w=1060');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center; 
+    } 
+    #app { 
+    text-align: center; 
+    background: lightblue; 
+    padding: 20px; 
+    border-radius: 10px; 
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); 
+    } 
+    #cityInput { 
+    padding: 10px; 
+    width: 300px; 
+    margin-bottom: 80px; 
+    } 
+    #searchButton { 
+    padding: 10px 20px; 
+    cursor: pointer; 
+    } 
+    #weatherDisplay img { 
+    width: 50px; 
+    height: 50px; 
+    } 
+    @media (max-width: 600px) { 
+    body { 
+    padding: 10px; 
+    } 
+    #app { 
+    width: 100%; 
+    } 
+    #cityInput { 
+    width: 100%; 
+    } 
+    } 
